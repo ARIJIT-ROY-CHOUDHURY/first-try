@@ -1,0 +1,147 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  /* Navigation Styling */
+  nav {
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Article Styling */
+  article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  article h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  article section {
+    margin-bottom: 20px;
+  }
+  
+  article section h3 {
+    color: #555;
+  }
+  
+  /* Aside Styling */
+  aside {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 250px;
+    padding: 10px;
+    background: #f9f9f9;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  aside h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  aside table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  aside table th, aside table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  aside table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Footer Styling */
+  footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer form div {
+    margin-bottom: 15px;
+  }
+  
+  footer form label {
+    margin-right: 10px;
+  }
+  
+  footer form input, footer form textarea {
+    padding: 5px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  footer form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  footer form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Scroll Support */
+  body {
+    overflow-y: scroll;
+  }
+  
+  /* Custom Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
